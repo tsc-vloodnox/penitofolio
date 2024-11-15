@@ -48,27 +48,6 @@ const MasonryGrid = () => {
       image: "/img/6.png",
       height: "large",
     },
-    {
-      id: 7,
-      title: "Blog Tech",
-      description: "Blog technique avec Next.js",
-      image: "/img/7.png",
-      height: "large",
-    },
-    {
-      id: 8,
-      title: "Blog Tech",
-      description: "Blog technique avec Next.js",
-      image: "/img/9.png",
-      height: "large",
-    },
-    {
-      id: 9,
-      title: "Blog Tech",
-      description: "Blog technique avec Next.js",
-      image: "/img/12.jfif",
-      height: "large",
-    },
   ]);
 
   const getHeightClass = (height: string) => {

@@ -42,7 +42,7 @@ export default function LandingHeader() {
     <ul className="space-y-6 text-base font-medium tracking-wide lg:flex lg:space-y-0 lg:text-sm">
       <li className={activeSection === "home" ? "text-primary" : ""}>
         <a
-          className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4"
+          className="block transition hover:text-[#871b22] dark:hover:text-primary md:px-4"
           href="pages/solution.html"
         >
           <span>Home</span>
@@ -80,7 +80,7 @@ export default function LandingHeader() {
       <nav
         id="navbar"
         className={cn(
-          "fixed inset-x-0 z-20 w-full border-b border-gray-100 bg-primary/90 backdrop-blur dark:border-gray-700/30 dark:bg-[#871b22]/80",
+          "fixed inset-x-0 z-[99] w-full border-b border-gray-100 bg-primary/90 backdrop-blur dark:border-gray-700/30 dark:bg-[#871b22]/80",
           isOpen ? "navbar-active" : ""
         )}
       >
@@ -125,12 +125,12 @@ export default function LandingHeader() {
                 <NavItems />
               </div>
 
-              <div className="mt-12 -ml-1 flex w-full flex-col space-y-2 border-primary/10 dark:border-gray-700 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
+              <div className="mt-12 -ml-1 flex w-full flex-col space-y-2 border-primary/10 dark:border-red-700 sm:flex-row md:w-max lg:mt-0 lg:mr-6 lg:space-y-0 lg:border-l lg:pl-6">
                 <a
-                  className="relative ml-auto flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-secondary dark:before:bg-red-500 sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-gray-100 lg:dark:before:bg-secondary"
+                  className="relative ml-auto flex h-9 w-full items-center justify-center before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition-transform before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-secondary dark:before:bg-red-500 sm:px-4 lg:before:border lg:before:border-gray-200 lg:before:bg-red-100 lg:dark:before:bg-red-500"
                   href="mailto:zdsd@sdsd.sd"
                 >
-                  <span className="relative text-sm font-semibold text-white dark:text--900 lg:text-primary lg:dark:text-white">
+                  <span className="relative text-sm font-semibold text-white dark:text-900 lg:text-primary lg:dark:text-white">
                     Contact
                   </span>
                 </a>
