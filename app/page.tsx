@@ -111,10 +111,11 @@ export default function Home() {
                   </span>
                 </h2>
                 <p className="text-lg text-interface-200 mb-4">
-                  Hello there! My name is Robert Elisc. I am a web designer &
-                  developer, and I'm very passionate and dedicated to my work.
-                  With 20 years experience as a professional a graphic designer,
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  quis ducimus sapiente dolore eaque, laboriosam exercitationem
+                  perspiciatis accusantium deserunt repellat.
                 </p>
+
                 <div className="mt-8 mb-10 space-y-6">
                   <div className="relative">
                     <div className="flex justify-between">
